@@ -1,0 +1,97 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ }
+
+p{
+	margin-bottom: 8px;
+	font-size: 0.9em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+h3 {
+	padding-top: 12px;
+	padding-bottom: 4px;
+	font-style: italic;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2{
+	margin-top: 16px;
+	margin-bottom: 4px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.intro{
+	line-height: 24px;
+	font-style: italic;
+	color: #3f454f;
+}
+
+#main_container{
+  background-color: white;
+  max-width:1400px;
+  }
+
+#intro_column{
+  background-color:#FFFFFF;
+  width: 94%;
+  margin-left:3%;
+  }
+
+#current_column{
+  background-color:#FFFFFF;
+  width: 94%;
+  margin-left:3%;
+  }
+
+  #coming_soon_column{
+  background-color:#FFFFFF;
+  width: 94%;
+  margin-left:3%;
+  }
+
+
+@media (min-width: 690px) {
+	#main_container{
+		overflow: hidden;
+	}
+
+	#intro_column{
+		float: left;
+	}
+
+	#current_column{
+		width: 47%;
+		float:left;
+		clear: left;
+	}
+	#coming_soon_column{
+		width: 47%;
+		float: left;
+	}
+
+}
+  @media(min-width: 1015px){
+  	#intro_column{
+  		width: 30%;
+ 	}
+
+ 	#current_column{
+ 		width: 30%;
+ 		clear: none;
+ 		margin-left: 2%;
+ 	}
+
+ 	#coming_soon_column{
+ 		width: 30%;
+ 	}
+  }
+
+  img{
+  	width: 100%;
+  }
+
+}
