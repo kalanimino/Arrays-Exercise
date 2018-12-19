@@ -1,0 +1,49 @@
+html,
+body{
+	background-color: #ffffff;
+}
+
+#container{
+	width: 1080px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-width: 3px;
+}
+
+#top-bar{
+	background-image: url("Top-Bar.png");
+	height: 145px;
+}
+
+#username{
+	text-align: center;
+	margin-right: 300px;
+	margin-top: ;
+	font-size: px
+}
+
+#follower-count{
+	height: 355px;
+	background-image: url("Follower-Count.png");
+}
+
+#profile-picture{
+	margin-left: 59px;
+	margin-top: 54px;
+	border-radius: 50%;
+	height: 255px;
+	width: 255px
+}
+
+#photo-bar{
+	height: 140px;
+	background-image: url("Photo-Bar.png");
+
+}
+
+.ig-image{
+	display: inline-block;
+	height: 		
+	width: 300px;
+}

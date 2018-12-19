@@ -90,8 +90,11 @@ h2{
  	}
   }
 
-  img{
+  	body{
+  	background-image: url(images/x-gray.png)
+  	}
+  	img{
   	width: 100%;
-  }
+  	}
 
 }

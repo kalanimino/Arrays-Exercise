@@ -1,0 +1,217 @@
+@font-face { 
+    font-family: liquidCrsytal; 
+	src: url(font/LiquidCrystal-Normal.otf);
+}
+
+* { 
+	font-family: liquidCrsytal;
+}
+
+
+body,html, #root {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: black;
+}
+
+#root {
+	display: flex;
+	background: black;
+	background-size: 400%;
+}
+
+#container {
+	display: inline-flex;
+	width: 36%;
+	height: 34%;
+	margin: auto;
+	color: #00FF01;
+	justify-content: center;
+	border: 8px solid #00FF01;
+	border-radius: 1.5rem;
+	overflow: hidden;
+}
+
+#lol {
+	display: table;
+	margin: auto;
+	text-align: center;
+	position:;
+	font-size: 5rem;
+}
+
+p {
+	margin: 0;
+}
+
+#yeet {
+	color: #00FF01;
+	background-color: black;
+	border: 1px #00FF01;
+	margin-left: 6.7%;
+}
+#yeet:focus{
+	border: 1px solid transparent;
+}
+
+#sec{
+	font-size: 2rem;
+	float:right;
+	float:bottom;
+	margin-left: 0;
+	display: inline-block;
+	padding-right:1.5%
+}
+
+#wek{
+	font-size: 2rem;
+	float:left;
+	float:bottom;
+	margin-left: 0;
+	display: inline-block;
+	padding-left:1.5%;
+}
+
+@media(max-height:900px){
+	#container{
+		height:42%;
+		width:44%;
+	}
+
+	#lol{
+		font-size:4.8rem;
+	}
+
+}
+
+@media(max-width:930px){
+	#container{
+		height:48%;
+		width:64%;
+	}
+
+	#lol{
+		font-size:4.3rem;
+	}
+
+}
+@media(max-width:825px){
+	#container{
+		height:48%;
+		width:80%;
+	}
+
+	#lol{
+		font-size:4.2rem;
+	}
+}
+
+@media(max-width:645px){
+	#container{
+		height:48%;
+		width:88%;
+	}
+
+	#lol{
+		font-size:4rem;
+	}
+}
+
+@media(max-width:1330px){
+	#container{
+		height:44%;
+		width:50%;
+	}
+
+	#lol{
+		font-size:4.3rem;
+	}
+}
+
+@media(max-width:1055px){
+	#container{
+		height:44%;
+		width:60%;
+	}
+
+	#lol{
+		font-size:4.2rem;
+	}
+}
+
+@media(max-width:585px){
+	#container{
+		height:44%;
+		width:80%;
+	}
+
+	#lol{
+		font-size:4.3rem;
+	}
+}
+
+@media(max-width:855px){
+	#container{
+		height:42%;
+		width:67%;
+	}
+
+	#lol{
+		font-size:4.2rem;
+	}
+}
+
+@media(max-width:767px){
+	#container{
+		height:42%;
+		width:75%;
+	}
+
+	#lol{
+		font-size:4.2rem;
+	}
+}
+
+@media(max-width:686px){
+	#container{
+		height:42%;
+		width:90%;
+	}
+
+	#lol{
+		font-size:4.2rem;
+	}
+}
+
+@media(max-width:570px){
+	#container{
+		height:42%;
+		width:95%;
+	}
+
+	#lol{
+		font-size:4rem;
+	}
+}
+
+@media(max-height:537px){
+	#container{
+		height:70%
+	}
+}
+
+@media(max-height:286px){
+	#container{
+		height:93%;
+		width:100%
+	}
+}
+
+#tz{
+	background-color: black;
+	border: 2px solid #adadad;
+	color:#adadad;
+	border-radius:0.2rem;
+	margin-bottom:1%;
+}

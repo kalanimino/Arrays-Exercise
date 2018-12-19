@@ -1,0 +1,25 @@
+@keyframes bag{
+	 from { transform: skew(15deg) rotate(143deg)}
+	 25% {transform: rotate(30deg);}
+	 50% {transform: skew(50deg);}
+	 75% { transform: skew(77deg); transform: rotate(180deg); }
+	 to { transform: skew(15deg) rotate(143deg)}
+}
+
+#rotate{
+	transform: rotate(45deg);
+}
+
+#skew{
+	transform: skew(30deg);
+}
+
+#all{
+	transform: rotate(70deg) skew(45deg);
+}
+
+#animate{
+	animation-name: bag;
+	animation-iteration-count: infinite;
+	animation-duration: .00001s
+}
